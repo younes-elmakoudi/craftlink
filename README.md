@@ -366,3 +366,6 @@ Short version (details and examples in [`CONTRIBUTING.md`](CONTRIBUTING.md)):
 ## Known limitations
 
 <!-- TODO: e.g. single backend instance (presence is in memory), self-signed certificate in local HTTPS, browser-specific notes. -->
+
+
+<!-- Temporary project automation test -->
