@@ -283,11 +283,11 @@ erDiagram
 
 | Member | 42 login | Role(s) | Responsibilities |
 |---|---|---|---|
-| Younes (`younes-elmakoudi`) | TODO | Tech Lead | Architecture, database schema, code review, infrastructure |
-| TODO | TODO | Product Owner | Product vision, backlog priorities, validates completed work |
-| TODO | TODO | Project Manager | Meetings, progress tracking, blockers |
-| TODO | TODO | Developer | TODO |
-| TODO | TODO | Developer | TODO |
+| Younes Elmakoudi (`younes-elmakoudi`) | yel-mako | Tech Lead | Architecture, database schema, code review, infrastructure |
+| Yahya Rafik (`mohrafik`) | mohrafik | Product Owner | Product vision, backlog priorities, validates completed work |
+| Omar Eljraouy (`oel-jrao`) | oel-jrao | Project Manager | Meetings, progress tracking, blockers |
+| Alae Bendris Alami (`aben-dri`) | aben-dri | Developer | Frontend/backend development, testing, implementation |
+| Zakria Jabir (`zajabir`) | zajabir | Developer | Frontend/backend development, testing, implementation |
 
 ## Project management
 
