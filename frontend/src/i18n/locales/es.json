@@ -1,0 +1,43 @@
+{
+  "app": {
+    "name": "CraftLink",
+    "tagline": "Encuentra un artesano de confianza cerca de ti"
+  },
+  "nav": {
+    "home": "Inicio",
+    "craftsmen": "Artesanos",
+    "login": "Iniciar sesión",
+    "register": "Registrarse"
+  },
+  "footer": {
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio"
+  },
+  "home": {
+    "title": "Bienvenido a CraftLink",
+    "subtitle": "Fontaneros, electricistas, pintores y más, a una solicitud de distancia."
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "back": "Volver al inicio"
+  },
+  "errors": {
+    "INTERNAL_ERROR": "Algo salió mal. Inténtalo de nuevo.",
+    "VALIDATION_ERROR": "Algunos campos no son válidos.",
+    "NOT_FOUND": "No encontramos lo que buscas.",
+    "CONFLICT": "Esta acción entra en conflicto con el estado actual.",
+    "RATE_LIMITED": "Demasiados intentos. Espera un momento.",
+    "AUTH_UNAUTHENTICATED": "Inicia sesión para continuar.",
+    "AUTH_INVALID_CREDENTIALS": "Correo o contraseña incorrectos.",
+    "AUTH_FORBIDDEN": "No tienes permiso para hacer esto.",
+    "AUTH_EMAIL_TAKEN": "Este correo ya está registrado.",
+    "REQUEST_INVALID_TRANSITION": "Este cambio de estado no está permitido.",
+    "REQUEST_CRAFTSMAN_UNAVAILABLE": "Este artesano no está disponible ahora.",
+    "REVIEW_NOT_ALLOWED": "No puedes valorar esta solicitud.",
+    "FRIENDSHIP_ALREADY_EXISTS": "Ya estáis conectados o hay una solicitud pendiente.",
+    "FRIENDSHIP_NOT_ALLOWED": "Esta acción de amistad no está permitida.",
+    "CHAT_NOT_ALLOWED": "Solo puedes chatear con amigos o personas con las que compartes una solicitud.",
+    "UPLOAD_INVALID_TYPE": "Este tipo de archivo no es compatible.",
+    "UPLOAD_TOO_LARGE": "Este archivo es demasiado grande."
+  }
+}

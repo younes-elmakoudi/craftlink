@@ -1,0 +1,19 @@
+name: Technical task
+description: Setup, refactoring, infrastructure, documentation
+title: 'chore(scope): '
+labels: ['type: chore']
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What and why
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      value: |
+        - [ ]
+    validations:
+      required: true

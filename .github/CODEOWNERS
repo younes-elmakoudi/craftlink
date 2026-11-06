@@ -1,0 +1,14 @@
+# Code owners are automatically requested for review on every pull request that touches their files.
+# Default: the Tech Lead sees everything.
+*                      @younes-elmakoudi
+
+# Shared contracts: always reviewed by the Tech Lead.
+/backend/prisma/       @younes-elmakoudi
+/infra/                @younes-elmakoudi
+/.github/              @younes-elmakoudi
+/docker-compose.yml    @younes-elmakoudi
+/docs/                 @younes-elmakoudi
+
+# Once the team is settled, add feature owners, for example:
+# /frontend/src/features/chat/     @github-username
+# /backend/src/modules/chat/       @github-username

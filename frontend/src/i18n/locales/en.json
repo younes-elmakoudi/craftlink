@@ -1,0 +1,43 @@
+{
+  "app": {
+    "name": "CraftLink",
+    "tagline": "Find a trusted craftsman near you"
+  },
+  "nav": {
+    "home": "Home",
+    "craftsmen": "Craftsmen",
+    "login": "Log in",
+    "register": "Sign up"
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "home": {
+    "title": "Welcome to CraftLink",
+    "subtitle": "Plumbers, electricians, painters and more, one request away."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "back": "Back to home"
+  },
+  "errors": {
+    "INTERNAL_ERROR": "Something went wrong. Please try again.",
+    "VALIDATION_ERROR": "Some fields are invalid.",
+    "NOT_FOUND": "We could not find what you are looking for.",
+    "CONFLICT": "This action conflicts with the current state.",
+    "RATE_LIMITED": "Too many attempts. Please wait a moment.",
+    "AUTH_UNAUTHENTICATED": "Please log in to continue.",
+    "AUTH_INVALID_CREDENTIALS": "Incorrect email or password.",
+    "AUTH_FORBIDDEN": "You are not allowed to do this.",
+    "AUTH_EMAIL_TAKEN": "This email is already registered.",
+    "REQUEST_INVALID_TRANSITION": "This status change is not allowed.",
+    "REQUEST_CRAFTSMAN_UNAVAILABLE": "This craftsman is not available right now.",
+    "REVIEW_NOT_ALLOWED": "You cannot review this request.",
+    "FRIENDSHIP_ALREADY_EXISTS": "You are already connected or a request is pending.",
+    "FRIENDSHIP_NOT_ALLOWED": "This friend action is not allowed.",
+    "CHAT_NOT_ALLOWED": "You can only chat with friends or people you share a request with.",
+    "UPLOAD_INVALID_TYPE": "This file type is not supported.",
+    "UPLOAD_TOO_LARGE": "This file is too large."
+  }
+}

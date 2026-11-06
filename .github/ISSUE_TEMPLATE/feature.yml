@@ -1,0 +1,43 @@
+name: Feature
+description: A user-facing feature or a part of a module
+title: 'feat(scope): '
+labels: ['type: feature']
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: [Frontend, Backend, Frontend + Backend]
+    validations:
+      required: true
+  - type: textarea
+    id: story
+    attributes:
+      label: User story
+      description: 'As a <role>, I want <goal>, so that <benefit>.'
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Testable statements. The issue is done when all are checked.
+      value: |
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+  - type: textarea
+    id: tech
+    attributes:
+      label: Technical notes
+      description: Endpoints, database impact, dependencies on other issues, design links.
+  - type: checkboxes
+    id: dod
+    attributes:
+      label: Definition of done
+      options:
+        - label: Works locally, no console error or warning
+        - label: Texts translated in en, fr, es
+        - label: Swagger and docs/api-contract.md updated (if the API changed)
+        - label: Reviewed and approved by a teammate

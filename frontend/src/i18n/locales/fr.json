@@ -1,0 +1,43 @@
+{
+  "app": {
+    "name": "CraftLink",
+    "tagline": "Trouvez un artisan de confiance près de chez vous"
+  },
+  "nav": {
+    "home": "Accueil",
+    "craftsmen": "Artisans",
+    "login": "Connexion",
+    "register": "Inscription"
+  },
+  "footer": {
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation"
+  },
+  "home": {
+    "title": "Bienvenue sur CraftLink",
+    "subtitle": "Plombiers, électriciens, peintres et plus, à une demande de distance."
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "back": "Retour à l'accueil"
+  },
+  "errors": {
+    "INTERNAL_ERROR": "Une erreur est survenue. Veuillez réessayer.",
+    "VALIDATION_ERROR": "Certains champs sont invalides.",
+    "NOT_FOUND": "Nous n'avons pas trouvé ce que vous cherchez.",
+    "CONFLICT": "Cette action est en conflit avec l'état actuel.",
+    "RATE_LIMITED": "Trop de tentatives. Veuillez patienter un instant.",
+    "AUTH_UNAUTHENTICATED": "Veuillez vous connecter pour continuer.",
+    "AUTH_INVALID_CREDENTIALS": "E-mail ou mot de passe incorrect.",
+    "AUTH_FORBIDDEN": "Vous n'avez pas le droit de faire cela.",
+    "AUTH_EMAIL_TAKEN": "Cet e-mail est déjà utilisé.",
+    "REQUEST_INVALID_TRANSITION": "Ce changement de statut n'est pas autorisé.",
+    "REQUEST_CRAFTSMAN_UNAVAILABLE": "Cet artisan n'est pas disponible pour le moment.",
+    "REVIEW_NOT_ALLOWED": "Vous ne pouvez pas évaluer cette demande.",
+    "FRIENDSHIP_ALREADY_EXISTS": "Vous êtes déjà en contact ou une demande est en attente.",
+    "FRIENDSHIP_NOT_ALLOWED": "Cette action d'ami n'est pas autorisée.",
+    "CHAT_NOT_ALLOWED": "Vous ne pouvez discuter qu'avec vos amis ou les personnes liées à une demande.",
+    "UPLOAD_INVALID_TYPE": "Ce type de fichier n'est pas pris en charge.",
+    "UPLOAD_TOO_LARGE": "Ce fichier est trop volumineux."
+  }
+}

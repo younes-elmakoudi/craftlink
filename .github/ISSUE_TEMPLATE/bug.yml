@@ -1,0 +1,25 @@
+name: Bug
+description: Something does not work as expected
+title: 'fix(scope): '
+labels: ['type: bug']
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      value: |
+        1.
+        2.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs actual behaviour
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      description: Browser and version, Docker or local dev, commit or branch.
