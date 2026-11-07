@@ -1,14 +1,51 @@
 # Code owners are automatically requested for review on every pull request that touches their files.
-# Default: the Tech Lead sees everything.
-*                      @younes-elmakoudi
+# The Tech Lead is on everything (default). Later lines override earlier ones, so each line below
+# lists the area owner AND the Tech Lead.
+*                                      @younes-elmakoudi
 
-# Shared contracts: always reviewed by the Tech Lead.
-/backend/prisma/       @younes-elmakoudi
-/infra/                @younes-elmakoudi
-/.github/              @younes-elmakoudi
-/docker-compose.yml    @younes-elmakoudi
-/docs/                 @younes-elmakoudi
+# ---- Shared contracts: Tech Lead only ----
+/backend/prisma/                       @younes-elmakoudi
+/backend/src/common/                   @younes-elmakoudi
+/backend/src/config/                   @younes-elmakoudi
+/docs/                                 @younes-elmakoudi
+/.github/                              @younes-elmakoudi
 
-# Once the team is settled, add feature owners, for example:
-# /frontend/src/features/chat/     @github-username
-# /backend/src/modules/chat/       @github-username
+# ---- Infrastructure: Zakaria owns Docker ----
+/docker-compose.yml                    @zikossss @younes-elmakoudi
+/infra/                                @zikossss @younes-elmakoudi
+/backend/Dockerfile                    @zikossss @younes-elmakoudi
+/backend/docker-entrypoint.sh          @zikossss @younes-elmakoudi
+/frontend/Dockerfile                   @zikossss @younes-elmakoudi
+/Makefile                              @zikossss @younes-elmakoudi
+
+# ---- Backend ----
+/backend/src/modules/auth/             @YahyaRa @younes-elmakoudi
+/backend/src/modules/users/            @YahyaRa @younes-elmakoudi
+/backend/src/modules/admin/            @YahyaRa @younes-elmakoudi
+/backend/src/modules/craftsmen/        @YahyaRa @younes-elmakoudi
+/backend/src/modules/requests/         @YahyaRa @younes-elmakoudi
+/backend/src/modules/reviews/          @YahyaRa @younes-elmakoudi
+/backend/src/modules/uploads/          @YahyaRa @younes-elmakoudi
+/backend/src/modules/friends/          @younes-elmakoudi
+/backend/src/modules/chat/             @younes-elmakoudi
+/backend/src/modules/notifications/    @younes-elmakoudi
+/backend/src/modules/realtime/         @younes-elmakoudi
+
+# ---- Frontend ----
+/frontend/src/features/auth/           @ELJRAOUYOMAR
+/frontend/src/features/profile/        @ELJRAOUYOMAR
+/frontend/src/features/friends/        @ELJRAOUYOMAR
+/frontend/src/features/chat/           @ELJRAOUYOMAR
+/frontend/src/features/admin/          @ELJRAOUYOMAR
+/frontend/src/features/craftsmen/      @ALAMIALAE
+/frontend/src/features/requests/       @ALAMIALAE
+/frontend/src/features/reviews/        @ALAMIALAE
+/frontend/src/features/notifications/  @ALAMIALAE
+/frontend/src/features/uploads/        @ALAMIALAE
+/frontend/src/features/realtime/       @zikossss
+/frontend/src/features/design-system/  @zikossss
+/frontend/src/features/legal/          @zikossss
+/frontend/src/components/ui/           @zikossss
+/frontend/src/i18n/                    @zikossss
+/frontend/src/app/                     @zikossss @younes-elmakoudi
+/frontend/src/lib/                     @zikossss @younes-elmakoudi
